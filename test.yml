@@ -1,0 +1,7 @@
+server:
+  port: 8003
+
+mybatis:
+  config-location: classpath:mybatis/mybatis-cfg.xml   #mybatis配置文件所在路径
+  type-aliases-package: com.huran.entities.Dept   #所有entity别名类所在包
+  mapper-locations: classpath:mybatis/mapper/**/*.xml   #mapper 映射文件
